@@ -1,3 +1,5 @@
 import os
-c="clear"
-os.system (c)
+
+start="python3 bot.py"
+
+os.system (start)
