@@ -27,7 +27,7 @@
 ## ☘️ Deploy Locally ❤️‍🔥
 
 ```bash
-git clone https://github.com/DilumBBandara/MARS-11_Bot
+git clone https://github.com/DilumBBandara/SMS-Bomber-Bot
 cd SMS-Bomber-Bot
 nano config.py
 pip3 install -r requirements.txt
