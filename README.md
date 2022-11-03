@@ -28,7 +28,7 @@
 
 ```bash
 git clone https://github.com/DilumBBandara/MARS-11_Bot
-cd MARS-11_Bot
+cd SMS-Bomber-Bot
 nano config.py
 pip3 install -r requirements.txt
 bash start
