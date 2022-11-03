@@ -1,4 +1,4 @@
-## MARS-11_Bot
+## SMS-Bomber-Bot
 
 <p align="center">
 <a href="https://github.com/DilumBBandara/SMS-Bomber-Bot"><img src="https://img.shields.io/github/license/DilumBBandara/SMS-Bomber-Bot?style=for-the-badge&logo=appveyor" alt="LICENSE"></a>
