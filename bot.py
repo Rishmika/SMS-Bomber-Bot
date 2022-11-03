@@ -130,13 +130,13 @@ async def boomer(_, message):
 			return await message.reply_text("🧩 | Provide with a phone number. 😴")
 		m = await message.reply_text(" Booming...‼️ \n━━━━━━━━━━━━━━")
 		query = message.text.split(None, 1)[1] if len(message.command) < 3 else message.text.split(None, 1)[1].replace(" ", "%20")
-		count=int(requests.get("").text)
+		count=int(25)
 		for i in range (0,count):
-			z=
+			z= "#..... "
 			zzx=await message.reply_text("Successful... ⚠️️")
-			r=
+			r= "#..... "
 			zzz=await message.reply_text("Successful... ⚠️️")
-			g=
+			g= "#..... "
 			zzzz=await message.reply_text("Successful... ⚠️️")
 		dil = await message.reply_text("   Done ‼️ \n━━━━━━━━━━━━━━")
 	except requests.exceptions.HTTPError as abcz:
