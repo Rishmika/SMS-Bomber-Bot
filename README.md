@@ -20,7 +20,7 @@
 
 
 
-1. Click **<a href="https://github.com/DilumBBandara/SMS-Bomber-Bot/fork">Fork</a>.**
+1. Click **<a href="https://github.com/DilumBBandara/SMS-Bomber-Bot-V1/fork">Fork</a>.**
 2. After edit <code>config.py</code> file and Fill The Required Variable.
 3. Then Click Deploy Button.
 
