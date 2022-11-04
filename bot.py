@@ -122,26 +122,19 @@ async def comantest(bot, message):
 
 @bot.on_message(filters.command("otpbomber") & filters.private)
 async def boomer(_, message):
-	try:
-		urlurl2=""
-		x=requests.get(urlurl2)
-		x.raise_for_status()
-		if len(message.command) < 2:
-			return await message.reply_text("🧩 | Provide with a phone number. 😴")
-		m = await message.reply_text(" Booming...‼️ \n━━━━━━━━━━━━━━")
-		query = message.text.split(None, 1)[1] if len(message.command) < 3 else message.text.split(None, 1)[1].replace(" ", "%20")
-		count=int(25)
-		for i in range (0,count):
-			z= "#..... "
-			zzx=await message.reply_text("Successful... ⚠️️")
-			r= "#..... "
-			zzz=await message.reply_text("Successful... ⚠️️")
-			g= "#..... "
-			zzzz=await message.reply_text("Successful... ⚠️️")
+	if len(message.command) < 2:
+		return await message.reply_text("🧩 | Provide with a phone number. 😴")
+	m = await message.reply_text(" Booming...‼️ \n━━━━━━━━━━━━━━")
+	query = message.text.split(None, 1)[1] if len(message.command) < 3 else message.text.split(None, 1)[1].replace(" ", "%20")
+	count=int(25)
+	for i in range (0,count):
+		z= "#..... "
+		zzx=await message.reply_text("Successful... ⚠️️")
+		r= "#..... "
+		zzz=await message.reply_text("Successful... ⚠️️")
+		g= "#..... "
+		zzzz=await message.reply_text("Successful... ⚠️️")
 		dil = await message.reply_text("   Done ‼️ \n━━━━━━━━━━━━━━")
-	except requests.exceptions.HTTPError as abcz:
-		off=await message.reply_text("Sorry... 💔\n \nThis has been temporarily suspended by the author. ☘️")
-
 
 @bot.on_callback_query()
 def callback_query(Client, Callback_Query):
