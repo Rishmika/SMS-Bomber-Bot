@@ -50,11 +50,11 @@ bot = Client(
 @bot.on_message(filters.command("help") & filters.private)
 def command2(bot, message):
 	bot.send_chat_action(message.chat.id, enums.ChatAction.TYPING)
-	typingmsg=message.reply_text("👀 | typing")
-	typingmsg.edit("👀 | typing.")
-	typingmsg.edit("👀 | typing..")
-	typingmsg.edit("👀 | typing...")
-	text="""💠 | Hello... 😴\n \n🌺🍃 I'm a Powerfull Bot With Cool Modules. Add me to your groups! ♥️ & Enjoy!!\n \n❤️‍🔥 Made by @Team_Mars_11 | @CGSUpdates 🇱🇰"""
+	typingmsg=message.reply_text("🪄 Starting API..")
+	typingmsg.edit("🗂️ Getting Your Information...")
+	typingmsg.edit("🌪️ Testing Speed..)
+	typingmsg.edit("📡 Connected On Emo Network..")
+	text="""😇 Hello...\n \n🌺🍃 I'm a Powerfull Bot With Cool Modules. Add me to your groups! ♥️ & Enjoy! \n\n ✨️ For All Users \n\n 😇 Friendly Bot \n ⚡️ Fast Response \n 📡 24 Hours Active \n 🎃 New Theme \n 🧩 New API \n\n @ImRishmika | @EmoBotDevolopers 🇱🇰"""
 	reply_markup=InlineKeyboardMarkup(HELP_MESSAGE_BUTTONS)
 	message.reply(
                 text=text,
@@ -124,7 +124,7 @@ async def comantest(bot, message):
 async def boomer(_, message):
 	if len(message.command) < 2:
 		return await message.reply_text("🧩 | Provide with a phone number. 😴")
-	m = await message.reply_text(" Booming...‼️ \n━━━━━━━━━━━━━━")
+	m = await message.reply_text(" 🌚 Booming...‼️ \n━━━━━API Running━━━━━")
 	query = message.text.split(None, 1)[1] if len(message.command) < 3 else message.text.split(None, 1)[1].replace(" ", "%20")
 	count=int(25)
 	for i in range (0,count):
@@ -216,7 +216,7 @@ async def broadcast_messages(user_id, message):
 async def broadcast_message(_, message):
     b_msg = message.reply_to_message
     chats = await get_served_users()
-    m = await message.reply_text("❤️‍🔥 | Broadcast in progress... 😴")
+    m = await message.reply_text("🔥 Broadcasting...")
     for chat in chats:
         try:
             await broadcast_messages(int(chat['bot_users']), b_msg)
