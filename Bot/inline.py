@@ -3,26 +3,26 @@ import pyrogram
 from config import bot_username, Discussion, CHANNEL, C_CHANNEL, SUPPORT
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-help_msg = '✘ Help Menu ✘ \n \n 💠 | All Commands 🌺 \n \n    » /start \n    » /help\n    » /otpbomber\n    » /test'
+help_msg = '✘ Help Menu ✘ \n \n 💠 | All Commands 🌺 \n \n    » /start \n    » /help\n    » /bomb \n    » /test'
 
 
-START_MESSAGE = "💠 | Hello... 😴\n \n🌺🍃 I'm a Powerfull Bot With Cool Modules. Add me to your groups! ♥️ & Enjoy!!\n \n❤️‍🔥 Made by @Team_Mars_11 | @CGSUpdates 🇱🇰"
+START_MESSAGE = "😇 Hello...\n \n🌺🍃 I'm a Powerfull Bot With Cool Modules. Add me to your groups! ♥️ & Enjoy! \n\n ✨️ For All Users \n\n 😇 Friendly Bot \n ⚡️ Fast Response \n 📡 24 Hours Active \n 🎃 New Theme \n 🧩 New API \n\n @ImRishmika | @EmoBotDevolopers 🇱🇰"
 
 
 START_MESSAGE_BUTTONS = [
 	[
-	InlineKeyboardButton('☃︎━━━━━━━━━━━━━━☃︎', callback_data='stats_callback'),
+	InlineKeyboardButton('📡 Bot Status 📡', callback_data='stats_callback'),
 	],
 	[
-	InlineKeyboardButton('☘️ CHANNEL ☘️', url=f'https://t.me/{C_CHANNEL}'),
-	InlineKeyboardButton('🍁 Support 🍁', url=f'https://t.me/{SUPPORT}'),
+	InlineKeyboardButton('</> ємσ вσт ∂єνσℓσρєʀѕ 🇱🇰', url=f't.me/EmoBotDevolopers'),
+	InlineKeyboardButton('🍁 Support 🍁', url=f'https://t.me/EmoBotSupport'),
 	],
 	[
-	InlineKeyboardButton('☘️ CHANNEL ☘️', url=f'https://t.me/{CHANNEL}'),
-	InlineKeyboardButton('🍁 Discussion 🍁', url=f'https://t.me/{Discussion}'),
+	InlineKeyboardButton('Devoloper 🧑‍💻', url=f'https://t.me/ImRishmika')
+	
 	],
 	[
-	InlineKeyboardButton(text='🌺 Help 🌺', callback_data='helpmenu'),
+	InlineKeyboardButton(text='🎯 Help And Commands 🎯', callback_data='helpmenu'),
 	],
 	[
 	InlineKeyboardButton(text='➕ Add Me to Your Group ➕', url=f'http://t.me/{bot_username}?startgroup=true'),
@@ -31,13 +31,13 @@ START_MESSAGE_BUTTONS = [
 
 WELLCOME_BUTTONS = [
 	[
-	InlineKeyboardButton('🌺 CHANNEL 🌺', url=f'https://t.me/{CHANNEL}'),
+	InlineKeyboardButton('🪄 Cahnnel 🪄 ', url=f'https://t.me/{CHANNEL}'),
 	],
 ]
 
 HELP_MESSAGE_BUTTONS = [
 	[
-	InlineKeyboardButton('━━━━━━━━━━━━━━', callback_data='stats_callback'),
+	InlineKeyboardButton('📡Bot Status 📡', callback_data='stats_callback'),
 	],
 	[
 	InlineKeyboardButton('🌐 All Commands 🌐', callback_data='helhelpmenu'),
@@ -46,7 +46,7 @@ HELP_MESSAGE_BUTTONS = [
 	InlineKeyboardButton('⚙ Restart ⚙', url=f'https://t.me/{bot_username}?start'),
 	],
 	[
-	InlineKeyboardButton(text='━━━━━━━━━━━━━━', callback_data='stats_callback'),
+	InlineKeyboardButton(text='🔥━━━━━EmoDevolopers━━━━━🔥', callback_data='stats_callback'),
 	],
 	[
 	InlineKeyboardButton(text='➕ Add Me to Your Group ➕', url=f'http://t.me/{bot_username}?startgroup=true'),
@@ -56,15 +56,15 @@ HELP_MESSAGE_BUTTONS = [
 
 VISIT_PM = [
 	[
-	InlineKeyboardButton('━━━━━━━━━━━━━━', callback_data='stats_callback'),
+	InlineKeyboardButton('📡 Bot Status 📡', callback_data='stats_callback'),
 	],
 	[
 	InlineKeyboardButton('☘️ Visit PM ☘️', url=f'https://t.me/{bot_username}?start'),
-	],
-	[
-	InlineKeyboardButton('❤️‍🔥 CHANNEL ❤️‍🔥', url=f'https://t.me/{CHANNEL}'),
-        InlineKeyboardButton('❤️‍🔥 CHANNEL ❤️‍🔥', url=f'https://t.me/{C_CHANNEL}'),
-	],
+	]
+	
+	
+        
+	
 ]
 
 
