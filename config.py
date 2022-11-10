@@ -1,10 +1,10 @@
 import os
 
 bot_username = ''
-CHANNEL = 'Team_Mars_11'
-Discussion = 'TeamMars_11'
-C_CHANNEL = 'CGSUPDATES'
-SUPPORT = 'CGSsupport'
+CHANNEL = 'EmoBotDevolopers'
+Discussion = 'EmoBotSupport'
+
+
 
 start_sticker_id = 'CAACAgIAAxkBAAIBP2NK3cJnHKz9Tz0N1XY7XnQfnP6iAAJlCwACUas4S_UAAVke-cEmqioE'
 
