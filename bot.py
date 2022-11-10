@@ -52,7 +52,7 @@ def command2(bot, message):
 	bot.send_chat_action(message.chat.id, enums.ChatAction.TYPING)
 	typingmsg=message.reply_text("🪄 Starting API..")
 	typingmsg.edit("🗂️ Getting Your Information...")
-	typingmsg.edit("🌪️ Testing Speed..)
+	typingmsg.edit("🌪️ Testing Speed..")
 	typingmsg.edit("📡 Connected On Emo Network..")
 	text="""😇 Hello...\n \n🌺🍃 I'm a Powerfull Bot With Cool Modules. Add me to your groups! ♥️ & Enjoy! \n\n ✨️ For All Users \n\n 😇 Friendly Bot \n ⚡️ Fast Response \n 📡 24 Hours Active \n 🎃 New Theme \n 🧩 New API \n\n @ImRishmika | @EmoBotDevolopers 🇱🇰"""
 	reply_markup=InlineKeyboardMarkup(HELP_MESSAGE_BUTTONS)
