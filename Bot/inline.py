@@ -31,7 +31,7 @@ START_MESSAGE_BUTTONS = [
 
 WELLCOME_BUTTONS = [
 	[
-	InlineKeyboardButton('🪄 Cahnnel 🪄 ', url=f'https://t.me/{CHANNEL}'),
+	InlineKeyboardButton('✘ Emo Bot Devoopers ✘', url=f'https://t.me/EmoBotDevolopers'),
 	],
 ]
 
@@ -59,7 +59,7 @@ VISIT_PM = [
 	InlineKeyboardButton('📡 Bot Status 📡', callback_data='stats_callback'),
 	],
 	[
-	InlineKeyboardButton('☘️ Visit PM ☘️', url=f'https://t.me/{bot_username}?start'),
+	InlineKeyboardButton('🪩 Visit PM 🪩', url=f'https://t.me/{bot_username}?start'),
 	]
 	
 	
