@@ -1,4 +1,5 @@
 import os
+#he 
 
 bot_username = 'emSMS_Bot'
 CHANNEL = 'EmoBotDevolopers'
@@ -17,4 +18,4 @@ TG_BOT_TOKEN = "5688863352:AAEMU2_Dd3wN8dQQ31ixq78mF3rHeXXfsuM"
 OWNER = int(5171347305) #oyage id danna
 CO_OWNER = int(5098417240)
 
-DATABASE = "mongodb+srv://rishbro:rishbro@cluster0-saugt.mongodb.net/test?retryWrites=true&w=majority" #Mongo url
+DATABASE = "mongodb+srv://rishbro:rishbro@cluster0.telwg.mongodb.net/newon?retryWrites=true&w=majority" #Mongo url
