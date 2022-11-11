@@ -1,8 +1,10 @@
 import os
 
-bot_username = ''
+bot_username = 'emSMS_Bot'
 CHANNEL = 'EmoBotDevolopers'
 Discussion = 'EmoBotSupport'
+C_CHANNEL = 'EmoBotDevolopers'
+SUPPORT = 'EmoBotSupport'
 
 
 
