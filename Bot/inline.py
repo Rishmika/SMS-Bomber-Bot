@@ -3,7 +3,7 @@ import pyrogram
 from config import bot_username, Discussion, CHANNEL, C_CHANNEL, SUPPORT
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-help_msg = '✘ Help Menu ✘ \n \n 💠 | All Commands 🌺 \n \n    » /start \n    » /help\n    » /bomb \n    » /test'
+help_msg = '✘ Help Menu ✘ \n \n 💠 | All Commands 🌺 \n \n » /start \n » /help\n » /bomb \n » /test\n  » /song'
 
 
 START_MESSAGE = "😇 Hello...\n \n🌺🍃 I'm a Assistant Bot Of Rishmika Sandanu. Add me to your groups! ♥️ & Enjoy! \n\n ✨️ For All Users \n\n 😇 Friendly Bot \n ⚡️ Fast Response \n 📡 24 Hours Active \n 🎃 New Theme \n 🧩 New API \n\n @ImRishmika | @EmoBotDevolopers 🇱🇰"
