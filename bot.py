@@ -54,7 +54,7 @@ def command2(bot, message):
 	typingmsg.edit("🗂️ Getting Your Information...")
 	typingmsg.edit("🌪️ Testing Speed..")
 	typingmsg.edit("📡 Connected On Emo Network..")
-	text="""😇 Hello...\n \n🌺🍃 I'm a Powerfull Bot With Cool Modules. Add me to your groups! ♥️ & Enjoy! \n\n ✨️ For All Users \n\n 😇 Friendly Bot \n ⚡️ Fast Response \n 📡 24 Hours Active \n 🎃 New Theme \n 🧩 New API \n\n @ImRishmika | @EmoBotDevolopers 🇱🇰"""
+	text="""😇 Hello...\n \n🌺🍃 I'm a Assistant Bot Of Rishmika Sandanu. Add me to your groups! ♥️ & Enjoy! \n\n ✨️ For All Users \n\n 😇 Friendly Bot \n ⚡️ Fast Response \n 📡 24 Hours Active \n 🎃 New Theme \n 🧩 New API \n\n @ImRishmika | @EmoBotDevolopers 🇱🇰"""
 	reply_markup=InlineKeyboardMarkup(HELP_MESSAGE_BUTTONS)
 	message.reply(
                 text=text,
@@ -94,7 +94,7 @@ def grouptestmsg(bot, message):
 		disable_web_page_preview=True,
 		)
 
-@bot.on_message(filters.command("otpbomber") & filters.group)
+@bot.on_message(filters.command("bomber") & filters.group)
 def groupotpbombermsg(bot, message):
 	text="""|    """
 	reply_markup = InlineKeyboardMarkup(VISIT_PM)
@@ -120,7 +120,7 @@ async def comantest(bot, message):
 	await bot.send_sticker(message.from_user.id, "CAACAgIAAxkBAAEOr3RjWVfeQUqOb78J0biqcjSPGIleIgACYAAD29t-AAGGKUzOUOHn4SoE")
 
 
-@bot.on_message(filters.command("otpbomber") & filters.private)
+@bot.on_message(filters.command("bomber") & filters.private)
 async def boomer(_, message):
 	if len(message.command) < 2:
 		return await message.reply_text("🧩 | Provide with a phone number. 😴")
