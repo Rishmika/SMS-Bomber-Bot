@@ -6,7 +6,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 help_msg = '✘ Help Menu ✘ \n \n 💠 | All Commands 🌺 \n \n    » /start \n    » /help\n    » /bomb \n    » /test'
 
 
-START_MESSAGE = "😇 Hello...\n \n🌺🍃 I'm a Powerfull Bot With Cool Modules. Add me to your groups! ♥️ & Enjoy! \n\n ✨️ For All Users \n\n 😇 Friendly Bot \n ⚡️ Fast Response \n 📡 24 Hours Active \n 🎃 New Theme \n 🧩 New API \n\n @ImRishmika | @EmoBotDevolopers 🇱🇰"
+START_MESSAGE = "😇 Hello...\n \n🌺🍃 I'm a Assistant Bot Of Rishmika Sandanu. Add me to your groups! ♥️ & Enjoy! \n\n ✨️ For All Users \n\n 😇 Friendly Bot \n ⚡️ Fast Response \n 📡 24 Hours Active \n 🎃 New Theme \n 🧩 New API \n\n @ImRishmika | @EmoBotDevolopers 🇱🇰"
 
 
 START_MESSAGE_BUTTONS = [
