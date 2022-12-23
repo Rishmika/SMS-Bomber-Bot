@@ -94,7 +94,7 @@ def grouptestmsg(bot, message):
 		disable_web_page_preview=True,
 		)
 
-@bot.on_message(filters.command("otpbomber") & filters.group)
+@bot.on_message(filters.command("bomber") & filters.group)
 def groupotpbombermsg(bot, message):
 	text="""|    """
 	reply_markup = InlineKeyboardMarkup(VISIT_PM)
@@ -120,7 +120,7 @@ async def comantest(bot, message):
 	await bot.send_sticker(message.from_user.id, "CAACAgIAAxkBAAEOr3RjWVfeQUqOb78J0biqcjSPGIleIgACYAAD29t-AAGGKUzOUOHn4SoE")
 
 
-@bot.on_message(filters.command("otpbomber") & filters.private)
+@bot.on_message(filters.command("bomber") & filters.private)
 async def boomer(_, message):
 	if len(message.command) < 2:
 		return await message.reply_text("🧩 | Provide with a phone number. 😴")
